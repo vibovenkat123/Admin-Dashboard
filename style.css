@@ -1,0 +1,12 @@
+
+@font-face {
+  font-family: system;
+  font-style: normal;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system;
+}
