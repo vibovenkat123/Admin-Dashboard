@@ -13,7 +13,7 @@
   <div class="container">
     <div class="sidebar">
       <ul>
-        <li><a href="#"><span class="material-icons-outlined">
+        <li id = 'dashboard-sidebar-logo'><a href="#"><span class="material-icons-outlined">
           dashboard
           </span><p>Dashboard</p></a></li>
         <li><a href=""><span class="material-icons-outlined">
@@ -29,7 +29,7 @@
             chat
             </span><p>Messages</p>
         </a></li>
-        <li><a href="#">
+        <li><a href="#" style="margin-bottom: 60px;">
           <span class="material-icons-outlined">
             hive
             </span><p>Missions</p>
@@ -50,6 +50,44 @@
             </span><p>privacy</p>
         </a></li>
       </ul>
+    </div>
+    <div class="header">
+      <div class="search">
+        <label for="search"><span class="material-icons-outlined">
+          search
+          </span></label>
+        <input type="text" id="search" name="searchInput">
+      </div>
+      <div class="pfp">
+        <div class="notis">
+          <span class="material-icons-outlined">
+            notifications_active
+          </span>
+        </div>
+        <img src="./images/pfp.jpg" alt="profile picture" class="pfp-image" width="50">
+        <p class="account-name" style="font-weight: bold; font-size:1.1em;">AnimalLover123</p>
+      </div>
+      <div class="welcome">
+        <img src="./images/pfp.jpg" alt="pfp" class="welcome-pfp" width="80" style="border-radius: 50%;">
+        <p class="welcome-text">Hi there,
+          <br>
+          <strong>AnimalLover123 (@animallover123)</strong>
+        </p>
+      </div>
+      <div class="btns">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </div>
+    <div class="content-main">
+      <div class="projects">
+        <h3>Your Missions</h3>
+      </div>
+      <div class="left-side">
+        <div class="announcements"></div>
+        <div class="trending"></div>
+      </div>
     </div>
   </div>
 </body>
