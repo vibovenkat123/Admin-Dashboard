@@ -10,3 +10,21 @@
   box-sizing: border-box;
   font-family: system;
 }
+
+.material-symbols-outlined {
+font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+a{
+  font-size: 1.1em;
+  color:black;
+  text-decoration: none;
+  display:flex;
+}
+a p{
+  margin-left: 5px;
+}
+
